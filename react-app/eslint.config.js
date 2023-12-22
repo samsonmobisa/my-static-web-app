@@ -1,6 +1,7 @@
 export default [
   {
     "extends": [
+      "react-app",
       "eslint:recommended",
       "plugin:import/errors",
       "plugin:react/recommended",
