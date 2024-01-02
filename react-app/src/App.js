@@ -17,7 +17,7 @@ class App extends Component {
         <HeaderBar />
         <div className="section columns">
           <NavBar />
-          <main className="column">
+          <main className="column">   
             <Suspense fallback={<div>Loading...</div>}>
               <Switch>
                 <Redirect from="/" exact to="/products" />
